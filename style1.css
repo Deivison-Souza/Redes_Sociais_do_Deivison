@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+    color: #ffffff;
+    font-family: sans-serif;
+  
+}
+
+body{
+    background-color: black;
+}
+
+.conteiner {
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    width: 80%;
+    text-align: center;
+    border: 2px solid red;
+}
+
+img {
+    border-radius: 1000px;
+    width: 200px;
+    height: 200px;
+}
+
+p {
+    margin-top: 15px;
+    margin-bottom: 50px;
+
+}
+
+.whatsapp, .facebook, .instagram {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 100px;
+    border: none;
+}
+
+ul {
+    list-style: none;
+ 
+}
+
+ul li a {
+    margin-bottom: 15px;
+    padding: 15px;
+    text-decoration-line: none;
+    background-color: blue;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 100px;
+}
